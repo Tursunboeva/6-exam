@@ -1,0 +1,156 @@
+.single_img{
+    max-width: 500px;
+    border: 1px solid rgb(187, 187, 187);
+    margin-right: 10px;
+
+}
+a{
+    font-size: 14px;
+    color: black;
+}
+.single_wrapper{
+    display: flex;
+    margin-top: 12px;
+    border-bottom: 1px solid rgb(203, 203, 203);
+}
+span{
+    color: rgb(211, 0, 0);
+}
+.title_singl{
+    display: flex;
+    gap: 10px;
+
+}
+.title_singl a{
+    color: blue;
+}
+.p_title{
+    border-bottom: 1px solid rgb(214, 214, 214);
+    margin-bottom: 12px;
+
+}
+
+.product-details {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.product-details h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.condition {
+    font-weight: bold;
+    color: #3cb371; 
+}
+
+.description {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.detail-item {
+    flex: 1 1 calc(50% - 10px);
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-item label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.detail-item input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
+.quantity {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.last-one {
+    color: red;
+}
+
+.sold {
+    color: #999;
+}
+.product-buttons {
+    padding: 16px;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 100px;
+  
+  }
+  
+  .product-buttons .price {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .product-buttons .interest {
+    color: #0073e6;
+    font-size: 0.875rem;
+    margin-bottom: 16px;
+    cursor: pointer;
+  }
+  
+  .product-buttons .btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border-radius: 30px;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-buttons .buy-now {
+    background-color: #0073e6;
+    color: white;
+  }
+  
+  .product-buttons .buy-now:hover {
+    background-color: #005bb5;
+  }
+  
+  .product-buttons .add-to-cart {
+    background-color: #36a3d9;
+    color: white;
+  }
+  
+  .product-buttons .add-to-cart:hover {
+    background-color: #2c8bb6;
+  }
+  
+  .product-buttons .watchlist {
+    background-color: white;
+    color: #0073e6;
+    border: 1px solid #0073e6;
+  }
+  
+  .product-buttons .watchlist:hover {
+    background-color: #f0f8ff;
+  }
+  

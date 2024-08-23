@@ -1,0 +1,30 @@
+footer{
+    border-top: 1px solid rgb(193, 193, 193) ;
+    margin-bottom: 22px;
+}
+.footer_wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10px;
+}
+
+.footer_wrapper ul{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+li {
+   font-size: 10px
+}
+li b{
+    font-style: italic;
+    font-size: 16px;
+}
+li .a{
+    text-decoration: none;
+    color:#767676 ;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}

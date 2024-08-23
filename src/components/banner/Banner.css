@@ -1,0 +1,86 @@
+.link_banner {
+    padding: 10px 54px;
+    border-top: 1px solid rgb(183, 182, 182);
+}
+
+.link_banner ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.link_banner li {
+    padding: 16px 10px;
+    color: #555555;
+    font-weight: 400;
+}
+
+.pseudo {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.link_banner li .link {
+    padding: 16px 10px;
+    color: #555555;
+    font-weight: 400;
+    text-decoration: none; 
+}
+
+section {
+    background-color: #FEB786;
+    width: 100%;
+}
+
+.banner_wrapper {
+    padding: 16px 32px;
+    display: flex;
+}
+
+.banner_title {
+    max-width: 332px;
+}
+
+.banner_title h2 {
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 36px;
+    color: #5C1B05;
+    margin-top: 8px;
+}
+
+.banner_title p {
+    font-size: 17px;
+    color: #5C1B05;
+    margin-bottom: 24px;
+}
+
+.banner_title button {
+    padding: 10px 20px;
+    background-color: #FEB786;
+    border: 1px solid #5C1B05; 
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #5C1B05;
+    text-decoration: none;
+}
+
+.banner_products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.banner_products img {
+    max-width: 306px;
+}
+.banner_products b{
+    color: #5C1B05;
+    font-size: 24px;
+}
